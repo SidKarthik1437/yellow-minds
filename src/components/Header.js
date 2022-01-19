@@ -4,7 +4,7 @@ import '../styles/misc.css'
 export default function Header() {
 
     return (
-      <div className="flex bg-grey w-full h-12 rounded-b-lg shadow items-center px-5 justify-between">
+      <div className="flex fixed z-10 top-0 bg-grey w-full h-12 rounded-b-lg shadow items-center px-5 justify-between">
         <Link
           to="/"
           className="flex thefont text-2xl tracking-widest text-yellow cursor-pointer items-center space-x-4"
