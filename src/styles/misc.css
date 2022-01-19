@@ -1,0 +1,17 @@
+@font-face {
+  font-family: thefont;
+  src: url(gagalin.ttf);
+}
+
+@font-face {
+  font-family: curfont;
+  src: url(Benedict.ttf);
+
+}
+.thefont{
+    font-family: thefont;
+}
+
+.curfont{
+    font-family: curfont;
+}

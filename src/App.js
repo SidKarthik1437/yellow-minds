@@ -8,7 +8,7 @@ const notfound = lazy(() => import("./pages/not-found"));
 
 function App() {
   return (
-    <div className="App">
+    <div className="App select-none">
       <Router>
       <Suspense fallback={<p>Loading...</p>}>
         <Switch>
